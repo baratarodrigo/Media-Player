@@ -40,10 +40,10 @@ namespace MediaPlayer
             this.tracklist = new System.Windows.Forms.ListBox();
             this.picart = new System.Windows.Forms.PictureBox();
             this.player = new AxWMPLib.AxWindowsMediaPlayer();
-            this.trackBar1 = new System.Windows.Forms.TrackBar();
+            this.trackvolu = new System.Windows.Forms.TrackBar();
             ((System.ComponentModel.ISupportInitialize)(this.picart)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.player)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackvolu)).BeginInit();
             this.SuspendLayout();
             // 
             // btnprev
@@ -162,15 +162,15 @@ namespace MediaPlayer
             this.player.Size = new System.Drawing.Size(1056, 130);
             this.player.TabIndex = 9;
             // 
-            // trackBar1
+            // trackvolu
             // 
-            this.trackBar1.Location = new System.Drawing.Point(1000, 174);
-            this.trackBar1.Maximum = 100;
-            this.trackBar1.Name = "trackBar1";
-            this.trackBar1.Orientation = System.Windows.Forms.Orientation.Vertical;
-            this.trackBar1.Size = new System.Drawing.Size(56, 196);
-            this.trackBar1.TabIndex = 10;
-            this.trackBar1.TickStyle = System.Windows.Forms.TickStyle.TopLeft;
+            this.trackvolu.Location = new System.Drawing.Point(1000, 174);
+            this.trackvolu.Maximum = 100;
+            this.trackvolu.Name = "trackvolu";
+            this.trackvolu.Orientation = System.Windows.Forms.Orientation.Vertical;
+            this.trackvolu.Size = new System.Drawing.Size(56, 196);
+            this.trackvolu.TabIndex = 10;
+            this.trackvolu.TickStyle = System.Windows.Forms.TickStyle.TopLeft;
             // 
             // Form1
             // 
@@ -178,7 +178,7 @@ namespace MediaPlayer
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(1056, 497);
-            this.Controls.Add(this.trackBar1);
+            this.Controls.Add(this.trackvolu);
             this.Controls.Add(this.player);
             this.Controls.Add(this.picart);
             this.Controls.Add(this.tracklist);
@@ -195,7 +195,7 @@ namespace MediaPlayer
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.picart)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.player)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackvolu)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -213,7 +213,7 @@ namespace MediaPlayer
         private System.Windows.Forms.ListBox tracklist;
         private System.Windows.Forms.PictureBox picart;
         private AxWMPLib.AxWindowsMediaPlayer player;
-        private System.Windows.Forms.TrackBar trackBar1;
+        private System.Windows.Forms.TrackBar trackvolu;
     }
 }
 
